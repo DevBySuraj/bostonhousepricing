@@ -12,10 +12,15 @@
 Create a new environment
 ```
 conda create --name venv1 python==3.10 -y
-
 ```
 
+The Web Interface:
+
 ![alt text](image.png)
+
+Making Predictions:
+
+![alt text](image-1.png)
 
 
 
