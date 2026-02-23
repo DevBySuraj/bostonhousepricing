@@ -15,7 +15,9 @@ conda create --name venv1 python==3.10 -y
 
 ```
 //instead of writing the conda activate path name for -p activated env -> this creates the env in the same folder location
-// instead write - conda activate venv/ its the same thing
+//instead write - conda activate venv/ its the same thing if the venv in the same folder no need to write whole folder location show in conda list
+
+
 
 
 
