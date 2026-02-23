@@ -18,7 +18,7 @@ def home():
 
 
 #we will give the input from here will get captured by this func and will feed it to the model, postman will be used
-#when we call this function the input will be captured in the data variable in json format ind 'data' key
+#when we call this function the input will be captured in the data variable in json format in the 'data' key
 @app.route('/predict_api', methods = ['POST'])
 def predict_api():
     data = request.json['data']
@@ -36,5 +36,9 @@ def predict_api():
     #return 2d array [[30.4]], need for first value only
     print(output[0])
     return jsonify(output[0])
+
+
+if __name__ == "__main__":
+    app.run(debug=True)
 
 
