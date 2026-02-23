@@ -18,6 +18,9 @@ conda create --name venv1 python==3.10 -y
 //instead write - conda activate venv/ its the same thing if the venv in the same folder no need to write whole folder location show in conda list
 
 
+![alt text](image.png)
+
+
 
 
 
