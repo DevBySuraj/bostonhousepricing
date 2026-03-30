@@ -28,7 +28,7 @@ def predict_api():
     print(data) 
 
     #standardizing the input data
-    new_data = scaler.transform(data)
+    new_data = scaler.transform(data)   
 
     #predicing the output ->feeding the transformed input
     output = regmodel.predict(new_data)
